@@ -22,4 +22,10 @@ describe('test cat', function () {
 		var meow = cat.meow();
 		assert.equal(meow, 'MROW');
 	})	
+
+	it('should eat if told to eat', function () {
+		var cat = new Cat();
+		var eat = cat.eat();
+		assert.equal(eat, 'nom nom nom');
+	})	
 })
