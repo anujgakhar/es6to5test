@@ -1,0 +1,16 @@
+{
+  "name": "full-boss-cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1",
+    "tape": "^3.0.2"
+  }
+}
